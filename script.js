@@ -1,0 +1,1 @@
+alert("Welcome! We're glad you're here. Explore, Learn and Have Fun!");

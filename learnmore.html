@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements, Tags, and Attributes</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f7;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h2 {
+            color: rgb(255, 138, 5);
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Table Styles */
+        table {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 20px;
+            text-align: left;
+        }
+
+        th {
+            background-color: rgb(255, 138, 5);
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f8f8;
+        }
+
+        tr:hover {
+            background-color: #e2e8f0;
+            cursor: default;
+        }
+
+        td {
+            color: #555;
+        }
+
+        /* Responsive Style */
+        @media (max-width: 600px) {
+            th, td {
+                padding: 10px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>HTML Elements</h2>
+    <table>
+        <tr>
+            <th>Element</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Heading Elements</td>
+            <td>Defines headings (e.g., <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>)</td>
+        </tr>
+        <tr>
+            <td>Paragraph Element</td>
+            <td>Defines a paragraph of text (<code>&lt;p&gt;</code>)</td>
+        </tr>
+        <tr>
+            <td>Anchor Element</td>
+            <td>Defines a hyperlink (<code>&lt;a&gt;</code>)</td>
+        </tr>
+        <tr>
+            <td>Image Element</td>
+            <td>Embeds an image (<code>&lt;img&gt;</code>)</td>
+        </tr>
+    </table>
+
+    <h2>HTML Tags</h2>
+    <table>
+        <tr>
+            <th>Tag</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><code>&lt;div&gt;</code></td>
+            <td>Defines a division or section in a document</td>
+        </tr>
+        <tr>
+            <td><code>&lt;span&gt;</code></td>
+            <td>Used for grouping inline-elements for styling</td>
+        </tr>
+        <tr>
+            <td><code>&lt;ul&gt;</code></td>
+            <td>Defines an unordered (bulleted) list</td>
+        </tr>
+        <tr>
+            <td><code>&lt;table&gt;</code></td>
+            <td>Defines a table</td>
+        </tr>
+    </table>
+
+    <h2>HTML Attributes</h2>
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        <tr>
+            <td><code>href</code></td>
+            <td>Specifies the URL for an anchor tag (<code>&lt;a&gt;</code>)</td>
+            <td><code>&lt;a href="https://example.com"&gt;Link&lt;/a&gt;</code></td>
+        </tr>
+        <tr>
+            <td><code>src</code></td>
+            <td>Specifies the source URL for an image tag (<code>&lt;img&gt;</code>)</td>
+            <td><code>&lt;img src="image.jpg" alt="Description"&gt;</code></td>
+        </tr>
+        <tr>
+            <td><code>alt</code></td>
+            <td>Provides alternate text for an image if it cannot be displayed</td>
+            <td><code>&lt;img src="image.jpg" alt="Description"&gt;</code></td>
+        </tr>
+        <tr>
+            <td><code>class</code></td>
+            <td>Specifies a class name for CSS styling</td>
+            <td><code>&lt;div class="container"&gt;Content&lt;/div&gt;</code></td>
+        </tr>
+    </table>
+
+</body>
+</html>
